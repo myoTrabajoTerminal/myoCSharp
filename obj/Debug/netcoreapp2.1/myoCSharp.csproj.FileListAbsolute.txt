@@ -1,0 +1,11 @@
+/Users/alejandroms/Documents/myoCSharp/bin/Debug/netcoreapp2.1/myoCSharp.deps.json
+/Users/alejandroms/Documents/myoCSharp/bin/Debug/netcoreapp2.1/myoCSharp.runtimeconfig.json
+/Users/alejandroms/Documents/myoCSharp/bin/Debug/netcoreapp2.1/myoCSharp.runtimeconfig.dev.json
+/Users/alejandroms/Documents/myoCSharp/bin/Debug/netcoreapp2.1/myoCSharp.dll
+/Users/alejandroms/Documents/myoCSharp/bin/Debug/netcoreapp2.1/myoCSharp.pdb
+/Users/alejandroms/Documents/myoCSharp/obj/Debug/netcoreapp2.1/myoCSharp.csprojAssemblyReference.cache
+/Users/alejandroms/Documents/myoCSharp/obj/Debug/netcoreapp2.1/myoCSharp.csproj.CoreCompileInputs.cache
+/Users/alejandroms/Documents/myoCSharp/obj/Debug/netcoreapp2.1/myoCSharp.AssemblyInfoInputs.cache
+/Users/alejandroms/Documents/myoCSharp/obj/Debug/netcoreapp2.1/myoCSharp.AssemblyInfo.cs
+/Users/alejandroms/Documents/myoCSharp/obj/Debug/netcoreapp2.1/myoCSharp.dll
+/Users/alejandroms/Documents/myoCSharp/obj/Debug/netcoreapp2.1/myoCSharp.pdb
