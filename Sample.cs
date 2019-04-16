@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
 using Sensores;
 
 namespace Muestra {
@@ -13,11 +13,12 @@ namespace Muestra {
         public void setStandardDeviation (Sensors data, int inicio, int fin) {
             var aux = new List<int> ();
             for (var sensor = 1; sensor <= nSENSORS; sensor++) {
+                aux = new List<int> ();
                 for (var iterator = inicio; iterator < fin; iterator++) {
                     aux.Add (data.getVector (sensor) [iterator]);
                 }
                 standardDev.Add (doMath (aux));
-                aux.Clear ();
+                //aux.Clear ();
             }
         }
         public float doMath (List<int> vals) {
@@ -33,9 +34,9 @@ namespace Muestra {
         public float standardDeviation (List<int> vals, float mean) {
             float val = 0;
             foreach (var value in vals) {
-                val = val + (float)Math.Pow (Math.Abs (value - mean), 2);
+                val = val + (float) Math.Pow (Math.Abs (value - mean), 2);
             }
-            return (float)Math.Sqrt (val / vals.Count);
+            return (float) Math.Sqrt (val / vals.Count);
         }
         public List<float> getStandardDev () {
             return standardDev;
